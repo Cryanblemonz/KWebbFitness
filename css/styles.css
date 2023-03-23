@@ -96,10 +96,11 @@ padding-top: 2%;
 }
 
 #services{
-    background-color: aqua;
+    background-color: #00FFEA; 
 }
 
 #services .row{
     margin: 0;
-    padding: 3%;
+    padding: 3% 3% 0 3%;
+    /* 205 x 119 pictures*/
 }
