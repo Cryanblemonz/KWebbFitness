@@ -2,8 +2,31 @@ body{
     margin: 0;
 }
 
+h2{
+    font-size: 1.5rem;
+}
+
+.orange{
+    background-color:rgb(255, 190, 49);
+    color: white;
+}
+
+.blue{
+    background-color: #00FFEA; 
+}
+
 #navbar{
-    position: static;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid black;
+    opacity: 90%;
+    z-index: 1;
+}
+
+@media (max-width: 900px){
+    #navbar{
+        position: static;
+    }
 }
 
 #header{
@@ -55,7 +78,7 @@ body{
 }
 
 .navbar a{
-    color: rgb(255, 255, 255)!important;
+    color: white!important;
     font-weight: 900;
 }
 
@@ -141,6 +164,7 @@ padding-top: 2%;
 #cta{
     background-color:rgb(255, 190, 49);
     padding: 1%;
+    text-align: center;
 }
 
 #cta h1{
@@ -149,6 +173,22 @@ padding-top: 2%;
     font-weight: 700;
 }
 
+.cta-row{
+    padding: 2% 3% 0 3%;
+}
+
 #footer .navbar{
     background-color: #00FFEA!important;
+}
+
+.cta-btn1{
+padding: 15px;
+margin-top: 25px;
+font-size: 1.2rem;
+}
+
+.copyright{
+    position: absolute;
+    right: 20px;
+    font-size: .7   rem;
 }
