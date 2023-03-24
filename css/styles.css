@@ -52,7 +52,6 @@ body{
 
 .navbar{
     background-color: rgb(255, 190, 49)!important;
-    margin: 0;
 }
 
 .navbar a{
@@ -88,6 +87,7 @@ padding-top: 2%;
 .kandra-picture{
     border-radius: 100%;
     padding: 1%; 
+    padding-bottom: 10%;
 }
 
 .services-row{
@@ -99,8 +99,56 @@ padding-top: 2%;
     background-color: #00FFEA; 
 }
 
-#services .row{
+.services-row{
     margin: 0;
-    padding: 3% 3% 0 3%;
+    padding: 2% 3% 0 3%;
     /* 205 x 119 pictures*/
+}
+
+.icon{
+    padding: 15px;
+}
+
+.lifting-icon{
+    padding-bottom: 50px;
+}
+
+.yoga-icon{
+    padding-top: 50px;
+}
+
+.health-icon{
+    padding-top: 25px;
+    position: relative;
+    left: 13px;
+}
+
+.col{
+    position: relative;
+}
+
+.services-para{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    opacity: 75%;
+}
+
+#cta{
+    background-color:rgb(255, 190, 49);
+    padding: 1%;
+}
+
+#cta h1{
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+#footer .navbar{
+    background-color: #00FFEA!important;
 }
