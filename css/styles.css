@@ -1,194 +1,242 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 
-h2{
-    font-size: 1.5rem;
+h2 {
+  font-size: 1.5rem;
 }
 
-.orange{
-    background-color:rgb(255, 190, 49);
-    color: white;
+.orange {
+  background-color: #FFBE2D ;
+  color: white;
 }
 
-.blue{
-    background-color: #00FFEA; 
+.blue {
+  background-color: #00ffea;
 }
 
-#navbar{
-    position: fixed;
-    width: 100%;
-    border-bottom: 1px solid black;
-    opacity: 90%;
-    z-index: 1;
+#navbar {
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid black;
+  opacity: 90%;
+  z-index: 1;
 }
 
-@media (max-width: 900px){
-    #navbar{
-        position: static;
-    }
+@media (max-width: 900px) {
+  #navbar {
+    position: static;
+  }
 }
 
-#header{
-    background-image: url('images/weights.png');
-    height: 540px;
+#header {
+  background-image: url("images/weights.png");
+  height: 580px;
+  background-size: cover;
+  margin: 0;
+}
+
+.message {
+  margin: 3% auto;
+}
+
+.btn {
+  margin: 10px;
+  width: auto;
+}
+
+.mini-contact {
+  position: absolute;
+  right: 3%;
+  top: 20%;
+  width: 30%;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .mini-contact {
+    position: relative;
+    left: 2px;
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+
+#header h1 {
+  font-size: 4rem;
+  font-family: "Zilla Slab", serif;
+  font-weight: 700;
+}
+
+#header h2 {
+  font-size: 2rem;
+  font-family: "Zilla Slab", serif;
+}
+
+.navbar {
+  background-color: #FFBE2D  !important;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: 900;
+}
+
+.intro-headings {
+  padding: 5%;
+  position: relative;
+}
+
+#bio {
+  text-align: center;
+  align-items: center;
+  background-color: #FFBE2D ;
+  color: white;
+  margin: 0;
+}
+
+.bio-headings {
+  margin: 0 2% 0 1%;
+  text-align: left;
+  padding-top: 2%;
+}
+
+.container-fluid .row {
+  margin-left: 28%;
+  padding-top: 2%;
+}
+
+.kandra-picture {
+  border-radius: 100%;
+  padding: 1%;
+  padding-bottom: 10%;
+}
+
+.services-row {
+  text-align: center;
+  margin: 10px auto;
+}
+
+#services {
+  background-color: #00ffea;
+}
+
+.services-row {
+  margin: 0;
+  padding: 2% 3% 0 3%;
+  /* 205 x 119 pictures*/
+}
+
+.icon {
+  padding: 15px;
+}
+
+.lifting-icon {
+  padding-bottom: 50px;
+}
+
+.yoga-icon {
+  padding-top: 50px;
+}
+
+.health-icon {
+  padding-top: 25px;
+  position: relative;
+  left: 13px;
+}
+
+.col {
+  position: relative;
+}
+
+.services-para {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  opacity: 75%;
+}
+
+#cta {
+  background-color: #FFBE2D ;
+  padding: 1%;
+  text-align: center;
+}
+
+#cta h1 {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cta-row {
+  padding: 2% 3% 0 3%;
+}
+
+#footer .navbar {
+  background-color: #00ffea !important;
+}
+
+.cta-btn1 {
+  padding: 15px;
+  margin-top: 25px;
+  font-size: 1.2rem;
+}
+
+.copyright {
+  position: absolute;
+  right: 20px;
+  font-size: 0.7 rem;
+}
+
+.questionaire{
+    background: rgb(0,255,234);
+    background: linear-gradient(173deg, rgba(0,255,234,1) 26%, rgba(255,190,45,1) 74%);
+    height: auto;
+    background-attachment:fixed;
     background-size: cover;
-    margin: 0;
+    padding: 25px;
 }
 
-.message{
-    margin:3% auto;
-}
-
-.btn{
-    margin: 10px;
-    width: auto;
-}
-
-.mini-contact{
-    position: absolute;
-    right: 3%;
-    top: 20%;
-    width: 30%;
+.questionaire h1{
+    padding: 5% 0 0 5%;
     text-align: center;
 }
 
-@media (max-width: 700px){
-    .mini-contact{
-        position: relative; 
-        left: 2px;
-        margin: 0 auto;
-        width: 90%;
-    }
-}
-
-#header h1{
-    font-size: 4rem;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 700;
-}
-
-#header h2{
-    font-size: 2rem;
-    font-family: 'Zilla Slab', serif;
-}
-
-.navbar{
-    background-color: rgb(255, 190, 49)!important;
-}
-
-.navbar a{
-    color: white!important;
-    font-weight: 900;
-}
-
-.intro-headings{
-    padding: 5%;
-    position: relative;
-}
-
-
-#bio{
-    text-align: center; 
-    align-items: center;
-    background-color:rgb(255, 190, 49);
-    color: white;
-    margin: 0;
-}
-
-.bio-headings{
-    margin: 0 2% 0 1%;
-    text-align: left;
-    padding-top: 2%;
-}
-
-.container-fluid .row{
-margin-left: 28%;
-padding-top: 2%;
-}
-
-.kandra-picture{
-    border-radius: 100%;
-    padding: 1%; 
-    padding-bottom: 10%;
-}
-
-.services-row{
+.questionaire h2{
+    padding-left: 5%;
     text-align: center;
-    margin: 10px auto;
 }
 
-#services{
-    background-color: #00FFEA; 
-}
-
-.services-row{
-    margin: 0;
-    padding: 2% 3% 0 3%;
-    /* 205 x 119 pictures*/
-}
-
-.icon{
-    padding: 15px;
-}
-
-.lifting-icon{
-    padding-bottom: 50px;
-}
-
-.yoga-icon{
-    padding-top: 50px;
-}
-
-.health-icon{
-    padding-top: 25px;
-    position: relative;
-    left: 13px;
-}
-
-.col{
-    position: relative;
-}
-
-.services-para{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.question-form{
+    background: rgb(192, 127, 201);
+    border: 2px solid black;
+    width: 60%;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    font-weight: bold;
-    opacity: 75%;
+    padding: 25px;
+    border-radius: 8%;
+    position: relative;
 }
 
-#cta{
-    background-color:rgb(255, 190, 49);
-    padding: 1%;
-    text-align: center;
+label{
+    padding-bottom: 10px;
 }
 
-#cta h1{
-    margin: 0;
-    text-align: center;
-    font-weight: 700;
-}
-
-.cta-row{
-    padding: 2% 3% 0 3%;
-}
-
-#footer .navbar{
-    background-color: #00FFEA!important;
-}
-
-.cta-btn1{
-padding: 15px;
-margin-top: 25px;
-font-size: 1.2rem;
-}
-
-.copyright{
+.hand-pic{
+    width: 300px;
     position: absolute;
-    right: 20px;
-    font-size: .7   rem;
+    top: 75px;
+    right: 50px;
+}
+
+.q-button{
+    position: absolute;
+    bottom: 40px;
+    right: 145px;
+    padding: 20px;
 }
