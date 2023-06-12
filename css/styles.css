@@ -231,12 +231,14 @@ h1 {
 
 label {
     padding-bottom: 10px;
+    width: 95%;
+    margin-left: 20px;
 }
 
 .hand-pic {
     width: 300px;
     position: absolute;
-    top: 50px;
+    top: 250px;
     right: 50px;
 }
 
