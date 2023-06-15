@@ -80,11 +80,15 @@ h1 {
 }
 
 @media (max-width: 767px) {
+    body{
+        margin: 0;
+        width: 100vw;
+    }
     #header {
         background-image: url("images/cropped-weights.png");
         background-size: auto;
         background-repeat: no-repeat;
-        height: 400px;
+        height: 380px;
     }
     #header h1 {
         font-size: 2rem;
@@ -99,6 +103,9 @@ h1 {
     }
     .mini-contact {
         display: none;
+    }
+    .kandra-picture {
+    margin-top: 15px;
     }
 }
 
